@@ -60,7 +60,7 @@ class _SendMoneyScreenState extends State<SendMoneyScreen> {
               style: Theme.of(context).textTheme.titleMedium,
             ),
             ElevatedButton(
-              onPressed: (){
+              onPressed: () {
                 Navigator.of(context).pushReplacementNamed('/dashboard');
               },
               child: const Text('Ok'),
